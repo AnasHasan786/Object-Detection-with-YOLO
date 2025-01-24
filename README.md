@@ -148,22 +148,15 @@ Object detection has a wide range of real-world applications, including:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/object-detection-yolo.git
-cd object-detection-yolo
+git clone https://github.com/AnasHasan786/Object-Detection-with-YOLO.git
 ```
 
-2. Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Download the dataset and pretrained model:
+2. Download the dataset and pretrained model:
 
 * Place the dataset in the data/ folder.
 * Download and place the model.keras file in the outputs/models/ directory.
 
-4. Run the object detection script:
+3. Run the object detection script:
 
 ```bash
 python components/model/test.py
