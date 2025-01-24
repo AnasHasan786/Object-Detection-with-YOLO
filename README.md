@@ -1,7 +1,7 @@
 # **🌟 Object Detection with YOLO**
 
 <p align="justify">
-  Welcome to my exploration of **Object Detection with YOLO (You Only Look Once)**! Object detection is a powerful computer vision technique that enables machines to identify and locate objects in an image or video. It not only detects what objects are present but also determines where they are located by drawing bounding boxes around them.
+  Welcome to my exploration of <strong>Object Detection with YOLO (You Only Look Once)!</strong> Object detection is a powerful computer vision technique that enables machines to identify and locate objects in an image or video. It not only detects what objects are present but also determines where they are located by drawing bounding boxes around them.
 </p>
 
 ---
@@ -80,9 +80,7 @@ Object detection models follow a structured pipeline to identify objects in imag
 3. **🌟 Mean Average Precision (mAP)**:  
    Calculates the average of AP across all object classes.
 
-   $$
-   mAP = \text{Average of AP values for all classes}
-   $$
+   mAP=Average of AP values for all classes
 
 ---
 
@@ -123,5 +121,62 @@ Object detection has a wide range of real-world applications, including:
 - 🏥 **Healthcare**: Identifying abnormalities in medical images.
 
 ---
+
+## **📂 Project Details**
+
+- **Dataset:** Pascal VOC dataset downloaded with the help of the Kaggle API in data.py.
+- **Model:** YOLO-based architecture trained for object detection tasks.
+
+---
+
+## **📦 Files in this Repository**
+
+- **data.py:** Script to download and preprocess the Pascal VOC dataset using the Kaggle API.
+- **outputs/models/model.keras:** Trained model file for YOLO-based object detection.
+
+---
+
+## **🔗 Links**
+
+- **Data Folder:** [Download Data Folder](https://drive.google.com/drive/folders/1-2WPVeEZDie0KRrUMv-JeHJnf5ZSXaHr?usp=sharing)
+- **Model File:** [Download model.keras](https://drive.google.com/file/d/1SsFqwPNs5NV4MTIC-6rrxZG7E0U17EHk/view?usp=sharing)
+
+---
+
+## **📜 How to Use**
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/object-detection-yolo.git
+cd object-detection-yolo
+```
+
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Download the dataset and pretrained model:
+
+* Place the dataset in the data/ folder.
+* Download and place the model.keras file in the outputs/models/ directory.
+
+4. Run the object detection script:
+
+```bash
+python components/model/test.py
+```
+
+--- 
+
+## **⚠️ Model Status**
+
+Please note that the model is still under training, and its performance may not be optimal yet. I am working on refining the model for better results.
+
+For now, the provided model (`model.keras`) serves as a work-in-progress demonstration.
+
+--- 
 
 Feel free to use and share! 🚀  
